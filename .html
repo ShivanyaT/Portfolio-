@@ -1,0 +1,128 @@
+<html>
+  <head>
+    <title>My Portfolio</title>
+  </head>
+  
+  <body>
+    
+    <header>
+      <h1>Shivanya Tomar</h1>
+      <p>Aspirant Web developer</p>
+    </header>
+    
+    <nav>
+      <ul>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#goals">Goals</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" onclick="showAdminLogin()">Admin Login</a></li>
+      </ul>
+    </nav>
+    
+    <button id="toggle-theme">Switch Theme</button>
+    
+    <main>
+      
+      <!--Education Section starts here-->
+      
+      <section id="education" class="section">
+        <h2>Education</h2>
+        
+        <div class="edu-item">
+          <h3>BTech</h3>
+          <p>VIT, 2024 - 2028</p>
+          </div>
+        
+        <div class="edu-item">
+          <h3>BSc</h3>
+          <p>IIT Madras, 2024 - 2028</p>
+          </div>
+        
+        <div class="edu-item">
+          <h3>High School, PCM</h3>
+          <p>Sun Valley International School, 2021 - 2023</p>
+          </div>
+          
+      </section>
+      
+      <!--Education section ends here-->
+      
+      <section id="projects" class="section">
+        <h2>Projects</h2>
+        
+        <div class="project-item">
+          <h3>Personal Portfolio</h3>
+          <p>Developed my personal portfolio website using HTML, CSS and JS.</p>
+          </div>
+        
+        <div class="project-item">
+          <h3>E-Commerce Apparel Website</h3>
+          <p>Developed an E-commerce website with Bootstrap.</p>
+          </div>
+        
+        <div class="project-item">
+          <h3>Game Development</h3>
+          <p>Developed a game, free runner, where the player has to collect coins in limited time.</p>
+          </div>
+          
+      </section>
+      
+      <!-- Project section ends here-->
+      
+      <section id="goals" class="section">
+        <h2>Goals For The Future</h2>
+        
+        <div class="goals-item">
+          <h3>Become proficient at web developent </h3>
+          <p>Complete the projects</p>
+          </div>
+        
+        <div class="goals-item">
+          <h3>College Exams</h3>
+          <p>Performance in End Terms</p>
+          </div>
+        
+        <div class="goals-item">
+          <h3>Focus a little on extracurriculars</h3>
+          <p>Make time for sports, music and literature</p>
+          <p>Charcoal sketching</p>
+          </div>
+          
+      </section>
+      <!-- Experience section ends-->
+      
+      <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+          <input type="text" id="name" placeholder="Your name" required>
+          <input type="email" id="email" placeholder="Your email(GMAIL)" required>
+          <textarea id="message" placeholder="Your message" required></textarea>
+          <div class="contactbtn">
+          <button id="submit">Send</button>
+          </div>
+        </form>
+             
+      </section>
+      
+      <!--Contact section Ends here-->
+      
+      <section id="admin-login" class="section">
+        <h2> Admin Login </h2>
+        <form id="login-form">
+          <input type="text" id="username" placeholder="Username" required>
+          <input type="password" id="password" placeholder="Password" required>
+          <button type="submit">Login</button>
+        </form>
+      </section>
+      
+      <!--Admin Login Section ends here-->
+      <section id="admin-section" class="section">
+        <h2> User Responses </h2>
+        <div id="user-responses"></div> <!-- DIV is a container tag-->
+      </section>
+      
+      
+    </main>
+  </body>
+</html>
